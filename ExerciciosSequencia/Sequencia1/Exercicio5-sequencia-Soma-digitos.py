@@ -1,6 +1,6 @@
 numero = int(input('Digite um número (1000 ≤ n ≤ 9999),: '))
 digitosEsquerda = numero // 100
-digitosDireita = 
+digitosDireita = numero % 100
 
 somaDigitos = digitosEsquerda + digitosDireita 
 
